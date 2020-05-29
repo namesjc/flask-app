@@ -21,7 +21,7 @@ users = {
 }
 
 
-app.config["IMAGE_UPLOADS"] = "/mnt/c/Users/cje5szh/Documents/project/flask-app/app/static/img/uploads"
+app.config["IMAGE_UPLOADS"] = "/mnt/c/Users/xxx/Documents/project/flask-app/app/static/img/uploads"
 app.config["ALLOWED_IMAGE_EXTENSIONS"] = ["JPEG", "JPG", "PNG", "GIF"]
 app.config['MAX_CONTENT_LENGTH'] = 50 * 1024 * 1024
 app.config["MAX_IMAGE_FILESIZE"] = 0.5 * 1024 * 1024
