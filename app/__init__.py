@@ -3,7 +3,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-app.config["IMAGE_UPLOADS"] = "/mnt/c/Users/cje5szh/Documents/project/flask-app/app/static/img/uploads"
+app.config["IMAGE_UPLOADS"] = "/mnt/c/Users/xxx/Documents/project/flask-app/app/static/img/uploads"
 app.config["ALLOWED_IMAGE_EXTENSIONS"] = ["JPEG", "JPG", "PNG", "GIF"]
 
 
